@@ -5,4 +5,4 @@
 
 ### Demo video
 
-[![Video Label](img.png)](https://youtu.be/ub1PQE9ANEo)
+[![Video Label](image.png)](https://youtu.be/ub1PQE9ANEo)
