@@ -16,12 +16,7 @@ const showData = (data) => {
     li.appendChile(text)
     ul.appendChile(li)
 }
-
-
-
 }
-
-
 
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -32,11 +27,7 @@ function myFunction() {
     }
     }
 
-fetch("http://www.omdbapi.com/?i=tt3896198&apikey=8085c11d")
-.then(res => res.json())
-.then(data => console.log(data))
-
-let button = do
+// let button = do
 // window.onscroll = () => {
 //     var myNav = document.getElementById("myTopnav");
 //     if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
