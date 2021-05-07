@@ -32,7 +32,7 @@ header {
     float: right;
     display: block;
     color: #f2f2f2;
-    margin-top: 7px;
+    margin-top: 10px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -67,12 +67,12 @@ header {
     font-size: 100px;
 }
 #webIntro{
-    clear:both;
     float:left;
     width:100%;
     position: relative; 
     background: black;
     padding:50px 0 50px 0;
+    
 }
 .webIntroCenter{
     width: 90%;
@@ -104,18 +104,14 @@ header {
     text-align:center;
     font-size:50px;  
     font-family: 'Catamaran', sans-serif;
+    margin-bottom: 0;
  }
  .titleB{
     color:#000000;
     text-align:center;
-    margin-top:30rem;
-    padding-top: 60px;
-    font-size:20px;  
- }
- .titlec{
-    color:#000;
-    text-align:center;
-    font-size:35px;  
+    margin-top:1rem;
+    margin-bottom:2rem;
+    font-size:20px;
  }
  .emailSend {
     margin:auto;
@@ -179,8 +175,7 @@ header {
         margin:1rem
     }
     .titleB{
-        margin-top:30rem;
-        padding-top: 60px;
+        margin-top:1rem;
         font-size:17px;  
      }
      .emailSend {
@@ -207,18 +202,15 @@ header {
         width: 100%;
         height: 400px;
      }
-    #eventoImg{
-        width:85%;
-        background:url(http://127.0.0.1:5500/image/eventoimg.jpg);
-        background-size:cover;
-    }
     .videoPlay {
         display:none;
     }
     .glide{
         display:none;
     }
-    
+    #webIntro{
+        margin-bottom: 50px;
+    }
 }
 
 /*PC web*/
@@ -251,12 +243,14 @@ header {
     .divider{
         background: #fff;
         width: 100%;
-        height: 100px;
+        height: 70px;
      }
     .mobileParaMovie {
         display:none;
     }
-    
+    #webIntro{
+        margin-bottom: 80px;
+    }
     
 }
 
@@ -279,6 +273,7 @@ header {
         margin:2rem;
     }
     
+    
 }
 @media screen and (min-width:1000px) and (max-width:1190px){
     #logo{ font-size: 2.5em;
@@ -288,8 +283,7 @@ header {
         margin:2rem;
     }
      .titleB{
-        margin-top:30rem;
-        padding-top: 60px;
+        margin-top:1rem;
         font-size:17px;  
      }
      .emailSend {
@@ -317,8 +311,6 @@ header {
         margin:2rem;
     }
     .titleB{
-        margin-top:30rem;
-        padding-top: 60px;
         font-size:15px;  
      }
      .emailSend {
@@ -346,8 +338,7 @@ header {
         margin:2rem;
     }
     .titleB{
-        margin-top:30rem;
-        padding-top: 60px;
+        margin-top:1rem;
         font-size:17px;  
      }
      .emailSend {
