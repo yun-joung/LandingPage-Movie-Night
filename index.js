@@ -27,12 +27,11 @@ function myFunction() {
     }
     }
 
-// let button = do
-// window.onscroll = () => {
-//     var myNav = document.getElementById("myTopnav");
-//     if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
-//     myNav.className += " navScroll";
-//     } else {
-//     myNav.className  = "topnav";
-//     }
-// };
+window.onscroll = () => {
+    var myNav = document.getElementById("myTopnav");
+    if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
+    myNav.className += " navScroll";
+    } else {
+    myNav.className  = "topnav";
+    }
+};
