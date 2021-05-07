@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../public/js/index.js" ></script>
+    <link rel="stylesheet" type="text/css" href="../public/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/responsibleWeb.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css" integrity="sha512-wCwx+DYp8LDIaTem/rpXubV/C1WiNRsEVqoztV0NZm8tiTvsUeSlA/Uz02VTGSiqfzAHD4RnqVoevMcRZgYEcQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css" integrity="sha512-wYsVD8ho6rJOAo1Xf92gguhOGQ+aWgxuyKydjyEax4bnuEmHUt6VGwgpUqN8VlB4w50d0nt+ZL+3pgaFMAmdNQ==" crossorigin="anonymous" />
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+       
+        <div class="topnav" id="myTopnav">
+            <h1 id="logo" style="margin: 0 0 0 5%;">MOVIE NIGHT</h1>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="index2.html" style="margin-right: 5%;">Mis Peliculas</a>
+            <a href="#webIntro" >Membership</a>
+        </div>
+        <div id="myVisual"> 
+             <video width="100%" controls autoplay class="videoPlay">
+                <source src="Movie Night.mp4" type="video/mp4">
+              </video>
+        </div>
+    </header>
+
+    <div id="content">
+        <div id="movieWeek">
+            <p class="title">NUEVA PELICULA DE LA SEMANA</p>
+            <div class="mobileParaMovie scroll">
+                <img src="image/her.jpeg" width="200px" height="300px" alt="her poster" />
+                <img src="image/Jokers.jpg" width="200px" height="300px" alt="her poster" />
+                <img src="image/mulan.jpeg" width="200px" height="300px" alt="her poster" />
+                <img src="image/Aliens.jpeg" width="200px" height="300px" alt="her poster" />
+                <img src="image/pinocho-cartel-9446.jpeg" width="200px" height="300px" alt="her poster" />
+                <img src="image/Hasta el cielo.jpg" width="200px" height="300px" alt="her poster" />
+            </div>
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide"><img src="image/her.jpeg" class="carucel" alt="her poster" /></li>
+                    <li class="glide__slide"><img src="image/Jokers.jpg" class="carucel" alt="her poster" /></li>
+                    <li class="glide__slide"><img src="image/mulan.jpeg" class="carucel" alt="her poster" /></li>
+                    <li class="glide__slide"><img src="image/Aliens.jpeg" class="carucel" alt="her poster" /></li>
+                    <li class="glide__slide"><img src="image/pinocho-cartel-9446.jpeg"class="carucel"  alt="her poster" /></li>
+                    <li class="glide__slide"><img src="image/Hasta el cielo.jpg"  class="carucel" alt="her poster" /></li>
+                    <li class="glide__slide"><img src="image/her.jpeg"  class="carucel" alt="her poster" /></li>
+                    <li class="glide__slide"><img src="image/Jokers.jpg" class="carucel" alt="her poster" /></li>
+                  </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="slider__arrow slider__arrow--prev glide__arrow glide__arrow--prev" data-glide-dir="<" style="border:none;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                          <path d="M0 12l10.975 11 2.848-2.828-6.176-6.176H24v-3.992H7.646l6.176-6.176L10.975 1 0 12z" style="color:white;"></path>
+                        </svg>
+                      </button>
+                      <button class="slider__arrow slider__arrow--next glide__arrow glide__arrow--next" data-glide-dir=">" style="border:none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                          <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"></path>
+                        </svg>
+                      </button>
+                    <!-- <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</i></i></button> -->
+                </div>
+              </div>
+              <a id="fetch" href="index2.html" role="button" >Ver más peliculas</a>
+        </div>
+    </div>
+
+    <div id="webIntro" style="padding-bottom: 100px;">
+        <p class="title">DISFRUTA, MOVIE NIGHT!</p>
+        <div class="webIntroCenter" >
+            <div class="benefit movie">
+                <img src="image/benefit-1.png" alt="benefit">
+                <h2>Nueva pelicula <br/>
+                de la semana</h2>
+                <p>Cada semana hay nuevas peliculas! <br/>
+                Nunca te aburriras </p>
+            </div>
+            <div class="benefit movie">
+                <img src="image/benefit-2.png" alt="benefit">
+                <h2>Disfruta donde quieras.<br/>
+                Películas y series ilimitadas en tu </h2>
+                <p>teléfono, tablet, computadora y TV <br/>
+                sin costo extra.</p>
+            </div>
+            <div class="benefit movie">
+                <img src="image/benefit-3.png" alt="benefit">
+                <h2>Pelicula exclusiva<br/>
+                Solamente puedes ver a traves de </h2>
+                <p>MOVIE NIGHT, disfruta un servicio <br/>
+                exclusivo!</p>
+            </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1620328164">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </div>
+        <div >
+            <div id="evento">
+                <img src="image/evento.png" alt="evento" />
+                <img src="image/eventoimg.jpg" id="eventoImg" alt="evento image" style="width: 85%; margin: 50px 0" />
+            </div>
+        </div>
+    <div id="membership" >
+        <div class="titleB" >
+            <h1>Disfruta donde quieras, Cancela Cuando quieras!</h1>
+        </div>
+        <div >
+            <input class="emailSend" type="emil" name="userEmail" maxlength="50" placeholder="email" />
+            <button class="emailSendBut">
+                Comenzar >
+            </button>
+        </div>
+    
+    <footer  style="margin-top: 100px;">
+        <div style="margin: 50px 0 50px 5%;">
+            <h1 style="margin:0">
+                MOVIE NIGHT
+            </h1>
+            <p style="margin:0">
+                © 2021 MOVIE NIGHT ® Global Inc.
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js" integrity="sha512-BXASbMmKLu+RC5TDnkupyhvrjiOQXILh/5zgIS8k5JAC71a73lNweVEg/X+9XJQ7GK22PH9WpztY3zqrji+xrQ==" crossorigin="anonymous"></script>
+    <script>
+        new Glide('.glide', {
+        type: 'carousel',
+        startAt: 0,
+        perView: 5,
+
+        }).mount()
+    </script>
+</body>
+</html>

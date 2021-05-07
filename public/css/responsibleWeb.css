@@ -1,0 +1,367 @@
+body{
+    font-size:16px;
+    min-width:320px;
+    margin:0;
+}
+header {
+    width:100%;
+    background:transparent;
+    color:#fff;
+    display: inline-block;
+}
+
+#logo{ 
+    color:#fff;
+    display:inline-block;
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+    position:fixed;
+    width:100%;
+    z-index: 100;
+  }
+
+.topnav .navScroll {
+    background-color: #000000 !important;
+    color:#fff;
+    width: 100% !important;
+}
+.navScroll {
+    background-color: #000000 !important;
+    color:#fff;
+    width: 100% !important;
+}
+  
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    margin-top: 10px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.topnav .icon {
+    display: none;
+}
+
+#content{
+    margin-top:-5px;
+    width:100%;
+}
+
+#myVisual section {
+    width:90%;
+    margin:0 auto;
+    position: relative;
+    top: 40%
+}
+#myVisual section p{
+    float:left;
+    width:100%;
+    color:#fff;
+    font-size: 100px;
+}
+#webIntro{
+    float:left;
+    width:100%;
+    position: relative; 
+    background: black;
+    padding:50px 0 50px 0;
+    
+}
+.webIntroCenter{
+    width: 90%;
+    margin:0 auto;
+    height:500px;
+}
+.benefit{
+    float:left;
+    width:27%;
+    margin:2rem;
+}
+
+.benefit h2 {
+    float:left;
+    width:100%;
+    text-align: center;
+    color:#fff;
+    margin-top:1rem
+}
+.benefit p {
+    float:left;
+    width:100%;
+    text-align: center;
+    color:#fff;
+    margin-top:0;
+}
+.title{
+    color:#fff;
+    text-align:center;
+    font-size:50px;  
+    font-family: 'Catamaran', sans-serif;
+    margin-bottom: 0;
+ }
+ .titleB{
+    color:#000000;
+    text-align:center;
+    margin-top:1rem;
+    margin-bottom:2rem;
+    font-size:20px;
+ }
+ .emailSend {
+    margin:auto;
+    width: 700px;
+    height: 40px;
+    padding: 15px;
+    font-size: 25px;
+ }
+ .emailSendBut{
+    width: 200px;
+    height: 74px;
+    padding: 15px;
+    font-size: 25px;
+    background: red;
+    color:#fff;
+    border-style: none;
+    margin-left:-5px;
+ }
+ .emailSendBut:hover{
+    background: rgb(99, 4, 4);
+ }
+
+/*mobile app*/
+@media screen and (max-width:600px){
+    #logo{ width: 100%;
+           font-size: 2em;
+           text-align: center;
+           margin:auto;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    #myVisual {
+        width:100%;
+        height: 500px;
+        background:url(http://127.0.0.1:5500/views/image/back2.jpeg);
+        background-size:cover;
+    }
+    #myVisual section p{
+        font-size:2em;
+    }
+
+    .benefit{
+        clear:both;
+        width:90%;
+        text-align: center;
+        margin:1rem
+    }
+    .titleB{
+        margin-top:1rem;
+        font-size:17px;  
+     }
+     .emailSend {
+        width: 90%;
+        height: 23px;
+        padding: 7px;
+        font-size: 17px;
+     }
+     .emailSendBut{
+        width: 94%;
+        height: 40px;
+        padding: 5px;
+        font-size: 20px;
+        margin-left: -1px;
+     
+     }
+     .divider{
+        background: #fff;
+        width: 100%;
+        height: 60px;
+     }
+     .dividerB{
+        background: #000;
+        width: 100%;
+        height: 400px;
+     }
+    .videoPlay {
+        display:none;
+    }
+    .glide{
+        display:none;
+    }
+    #webIntro{
+        margin-bottom: 50px;
+    }
+    .topnav a:hover {
+        background: #f2f2f2;
+        color: black;
+    }
+}
+
+/*PC web*/
+@media screen and (min-width:601px){
+    Header div{
+        color:#fff;
+    }
+    header nav{
+           float:right;
+           margin-top:10px
+    }
+    header nav div a {
+           width: 100px;
+           font-size: 1.3em;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    #myVisual section p{
+        font-size:4em;
+    }
+    .divider{
+        background: #fff;
+        width: 100%;
+        height: 70px;
+     }
+    .mobileParaMovie {
+        display:none;
+    }
+    #webIntro{
+        margin-bottom: 80px;
+    }
+    .topnav a:hover {
+        color: red;
+        transform: scale(1.3);
+    }
+}
+
+@media screen and (min-width:1725px){
+    #logo{ font-size: 3em;
+        display:inline-block;}
+    .benefit{
+        float:left;
+        width:29%;
+        margin:2rem;
+    }
+    
+    
+}
+@media screen and (min-width:1200px) and (max-width:1724px){
+    #logo{ font-size: 3em;
+        display:inline-block;}
+    .benefit{
+        width:27%;
+        margin:2rem;
+    }
+    
+    
+}
+@media screen and (min-width:1000px) and (max-width:1190px){
+    #logo{ font-size: 2.5em;
+        display:inline-block;}
+    .benefit{
+        width:23%;
+        margin:2rem;
+    }
+     .titleB{
+        margin-top:1rem;
+        font-size:17px;  
+     }
+     .emailSend {
+        width: 550px;
+        height: 25px;
+        padding: 15px;
+        font-size: 23px;
+     }
+     .emailSendBut{
+        width: 200px;
+        height: 59px;
+        padding: 15px;
+        font-size: 23px;
+        margin-left:-5px;
+     
+     }
+    
+}
+
+@media screen and (min-width:765px) and (max-width:999px){
+    #logo{ font-size: 2em;
+        display:inline-block;}
+    .benefit{
+        width:40%;
+        margin:2rem;
+    }
+    .titleB{
+        font-size:15px;  
+     }
+     .emailSend {
+        width: 400px;
+        height: 25px;
+        padding: 15px;
+        font-size: 23px;
+     }
+     .emailSendBut{
+        width: 200px;
+        height: 59px;
+        padding: 15px;
+        font-size: 23px;
+        margin-left:-5px;
+     
+     }
+    
+}
+@media screen and (min-width:601px) and (max-width:764px){
+    
+    #logo{ font-size: 2em;
+        display:inline-block;}
+    .benefit{
+        width:90%;
+        margin:2rem;
+    }
+    .titleB{
+        margin-top:1rem;
+        font-size:17px;  
+     }
+     .emailSend {
+        width: 300px;
+        height: 25px;
+        padding: 15px;
+        font-size: 20px;
+     }
+     .emailSendBut{
+        width: 200px;
+        height: 59px;
+        padding: 15px;
+        font-size: 20px;
+        margin-left:-5px;
+     
+     }
+}
