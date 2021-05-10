@@ -11,7 +11,7 @@ app.use('/image', express.static(__dirname + 'public/image'))
 
 
 app.get('', (req, res) => {
-  res.sendFile(__dirname + '/src/index.html')
+  res.sendFile(__dirname + '/public/index.html')
 })
 
 
